@@ -13,8 +13,8 @@ pipeline {
             steps{
                 sh '''npm --verison
                       node --version
-                     npm ci
-                     npm run build
+                      npm ci
+                      npm run build
                 '''
             }
         }
