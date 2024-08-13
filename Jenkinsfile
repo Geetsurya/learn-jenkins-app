@@ -11,9 +11,7 @@ pipeline {
                 }
             }
             steps{
-                sh '''
-                    npm ci
-                    npm run build
+                sh ''' echo "surya"       
                 '''
             }
         }
